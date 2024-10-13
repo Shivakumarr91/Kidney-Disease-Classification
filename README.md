@@ -29,7 +29,7 @@ conda create -n cnncls python=3.8 -y
 ```
 
 ```bash
-conda activate cnncllk
+conda activate cnncls
 ```
 
 
