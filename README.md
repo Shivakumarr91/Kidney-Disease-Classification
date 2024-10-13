@@ -1,2 +1,39 @@
-# Kidney-Disease-Classification
-A Kidney Disease Classification Model using deep learning is a predictive system that employs neural networks to process medical data, such as lab results and clinical parameters, to classify patients as either healthy or having kidney disease. This model aids in early detection and supports personalized treatment planning.
+# Kidney-Disease-Classification-MLflow-DVC
+
+
+## Workflows
+
+1. Update config.yaml
+2. Update secrets.yaml [Optional]
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the dvc.yaml
+10. app.py
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/Shivakumarr91/Kidney-Disease-Classification.git
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n cnncls python=3.8 -y
+```
+
+```bash
+conda activate cnncls
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
