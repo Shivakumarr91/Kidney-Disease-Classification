@@ -25,11 +25,12 @@ https://github.com/Shivakumarr91/Kidney-Disease-Classification.git
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -n kidney python=3.8 -y
 ```
+conda create -n kidney python=3.8 -y
 
 ```bash
-conda activate cnncls
+conda activate kidney
 ```
 
 
@@ -56,6 +57,6 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/shivakumar9148379231/Kidney-Disea
 
 export MLFLOW_TRACKING_USERNAME=shivakumar9148379231
 
-export MLFLOW_TRACKING_PASSWORD=Sh-9148379231#
+export MLFLOW_TRACKING_PASSWORD=78eb2b4552eb4114bf85686ffea476d4de7a803c
 
 ```
